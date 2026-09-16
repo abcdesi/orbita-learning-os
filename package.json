@@ -1,0 +1,16 @@
+{
+  "name": "orbita-learning-os",
+  "version": "2.2.0",
+  "private": true,
+  "type": "module",
+  "description": "ORBITA Learning OS V2.2 — SaaS familial d'apprentissage adaptatif",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --env-file-if-exists=.env --watch src/server.js",
+    "test": "node --test test/*.test.js",
+    "db:reset": "node src/reset-db.js"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
