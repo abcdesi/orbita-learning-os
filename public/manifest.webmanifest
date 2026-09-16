@@ -1,0 +1,10 @@
+{
+  "name": "ORBITA Learning OS",
+  "short_name": "ORBITA",
+  "description": "Apprendre dans le bon ordre, avec la bonne méthode, jusqu'à la maîtrise réelle.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f6fb",
+  "theme_color": "#6d55f7",
+  "lang": "fr"
+}
